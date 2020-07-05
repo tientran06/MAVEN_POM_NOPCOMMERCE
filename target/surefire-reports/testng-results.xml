@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[2020-07-05 15:11:03,593 INFO  com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement -  -------------------------- PASSED -------------------------- 
+]]>
+    </line>
+    <line>
+      <![CDATA[2020-07-05 15:11:09,597 INFO  com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement -  -------------------------- PASSED -------------------------- 
+]]>
+    </line>
+    <line>
+      <![CDATA[2020-07-05 15:11:35,716 INFO  com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement - OS name = windows 10
+]]>
+    </line>
+    <line>
+      <![CDATA[2020-07-05 15:11:36,697 INFO  com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement - ---------- QUIT BROWSER SUCCESS ----------
+]]>
+    </line>
+  </reporter-output>
+  <suite name="Nop Commerce" duration-ms="51697" started-at="2020-07-05T08:10:45Z" finished-at="2020-07-05T08:11:36Z">
+    <groups>
+    </groups>
+    <test name="Run on CHROME" duration-ms="51697" started-at="2020-07-05T08:10:45Z" finished-at="2020-07-05T08:11:36Z">
+      <class name="com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement@71bbf57e]" name="beforeTest" is-config="true" duration-ms="11537" started-at="2020-07-05T15:10:45Z" finished-at="2020-07-05T15:10:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="TC_01_RegisterToSystem()[pri:0, instance:com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement@71bbf57e]" name="TC_01_RegisterToSystem" duration-ms="8883" started-at="2020-07-05T15:10:56Z" finished-at="2020-07-05T15:11:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2020-07-05 15:11:03,593 INFO  com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement -  -------------------------- PASSED -------------------------- 
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_01_RegisterToSystem -->
+        <test-method status="PASS" signature="TC_02_LoginToSystem()[pri:0, instance:com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement@71bbf57e]" name="TC_02_LoginToSystem" duration-ms="4165" started-at="2020-07-05T15:11:05Z" finished-at="2020-07-05T15:11:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2020-07-05 15:11:09,597 INFO  com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement -  -------------------------- PASSED -------------------------- 
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_02_LoginToSystem -->
+        <test-method status="PASS" signature="TC_03_Dymamic_Header_Menu_More()[pri:0, instance:com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement@71bbf57e]" name="TC_03_Dymamic_Header_Menu_More" duration-ms="18868" started-at="2020-07-05T15:11:09Z" description="only use in case more pages" finished-at="2020-07-05T15:11:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_Dymamic_Header_Menu_More -->
+        <test-method status="PASS" signature="TC_04_Dymamic_Header_Sub_Menu_More()[pri:0, instance:com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement@71bbf57e]" name="TC_04_Dymamic_Header_Sub_Menu_More" duration-ms="7246" started-at="2020-07-05T15:11:28Z" description="only use in case more pages" finished-at="2020-07-05T15:11:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_Dymamic_Header_Sub_Menu_More -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement@71bbf57e]" name="afterTest" is-config="true" duration-ms="983" started-at="2020-07-05T15:11:35Z" finished-at="2020-07-05T15:11:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2020-07-05 15:11:35,716 INFO  com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement - OS name = windows 10
+]]>
+            </line>
+            <line>
+              <![CDATA[2020-07-05 15:11:36,697 INFO  com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement - ---------- QUIT BROWSER SUCCESS ----------
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement -->
+    </test> <!-- Run on CHROME -->
+  </suite> <!-- Nop Commerce -->
+</testng-results>

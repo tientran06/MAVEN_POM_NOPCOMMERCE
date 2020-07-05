@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on CHROME"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="32.044">
+  <properties />
+  
+  
+            <testcase name="TC_01_RegisterToSystem" time="6.930" classname="com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement" />
+                <testcase name="TC_02_LoginToSystem" time="2.878" classname="com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement" />
+                <testcase name="TC_03_Dymamic_Header_Menu_More" time="15.508" classname="com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement" />
+                <testcase name="TC_04_Dymamic_Header_Sub_Menu_More" time="6.728" classname="com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement" />
+      
+</testsuite>
