@@ -140,10 +140,10 @@
 				<version>2.22.2</version>
 				<configuration>
 <!--					 Disabling default listeners is optional-->
-					<property>
+					<!--<property>
 						<name>usedefaultlisteners</name>
 						<value>false</value>
-					</property>
+					</property>-->
 
 					<!-- Run TestNG xml file -->
 					<suiteXmlFiles>

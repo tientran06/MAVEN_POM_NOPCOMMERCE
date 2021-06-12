@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[2020-07-05 15:11:03,593 INFO  com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement -  -------------------------- PASSED -------------------------- 
+      <![CDATA[2021-03-07 00:55:27,366 INFO  com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement -  -------------------------- PASSED -------------------------- 
 ]]>
     </line>
     <line>
-      <![CDATA[2020-07-05 15:11:09,597 INFO  com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement -  -------------------------- PASSED -------------------------- 
+      <![CDATA[2021-03-07 00:55:35,643 INFO  com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement -  -------------------------- PASSED -------------------------- 
 ]]>
     </line>
     <line>
-      <![CDATA[2020-07-05 15:11:35,716 INFO  com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement - OS name = windows 10
+      <![CDATA[2021-03-07 00:56:08,589 INFO  com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement - OS name = windows 10
 ]]>
     </line>
     <line>
-      <![CDATA[2020-07-05 15:11:36,697 INFO  com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement - ---------- QUIT BROWSER SUCCESS ----------
+      <![CDATA[2021-03-07 00:56:10,574 INFO  com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement - ---------- QUIT BROWSER SUCCESS ----------
 ]]>
     </line>
   </reporter-output>
-  <suite name="Nop Commerce" duration-ms="51697" started-at="2020-07-05T08:10:45Z" finished-at="2020-07-05T08:11:36Z">
+  <suite started-at="2021-03-06T17:55:11Z" name="Nop Commerce" finished-at="2021-03-06T17:56:10Z" duration-ms="58720">
     <groups>
     </groups>
-    <test name="Run on CHROME" duration-ms="51697" started-at="2020-07-05T08:10:45Z" finished-at="2020-07-05T08:11:36Z">
+    <test started-at="2021-03-06T17:55:11Z" name="Run on CHROME" finished-at="2021-03-06T17:56:10Z" duration-ms="58720">
       <class name="com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement">
-        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement@71bbf57e]" name="beforeTest" is-config="true" duration-ms="11537" started-at="2020-07-05T15:10:45Z" finished-at="2020-07-05T15:10:56Z">
+        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement@2034b64c]" started-at="2021-03-07T00:55:11Z" name="beforeTest" finished-at="2021-03-07T00:55:21Z" duration-ms="9348" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,38 +39,42 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="TC_01_RegisterToSystem()[pri:0, instance:com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement@71bbf57e]" name="TC_01_RegisterToSystem" duration-ms="8883" started-at="2020-07-05T15:10:56Z" finished-at="2020-07-05T15:11:05Z">
+        <test-method signature="TC_01_RegisterToSystem()[pri:0, instance:com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement@2034b64c]" started-at="2021-03-07T00:55:21Z" name="TC_01_RegisterToSystem" finished-at="2021-03-07T00:55:30Z" duration-ms="9088" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[2020-07-05 15:11:03,593 INFO  com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement -  -------------------------- PASSED -------------------------- 
+              <![CDATA[2021-03-07 00:55:27,366 INFO  com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement -  -------------------------- PASSED -------------------------- 
 ]]>
             </line>
           </reporter-output>
         </test-method> <!-- TC_01_RegisterToSystem -->
-        <test-method status="PASS" signature="TC_02_LoginToSystem()[pri:0, instance:com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement@71bbf57e]" name="TC_02_LoginToSystem" duration-ms="4165" started-at="2020-07-05T15:11:05Z" finished-at="2020-07-05T15:11:09Z">
+        <test-method signature="TC_02_LoginToSystem()[pri:0, instance:com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement@2034b64c]" started-at="2021-03-07T00:55:30Z" name="TC_02_LoginToSystem" finished-at="2021-03-07T00:55:35Z" duration-ms="5329" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[2020-07-05 15:11:09,597 INFO  com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement -  -------------------------- PASSED -------------------------- 
+              <![CDATA[2021-03-07 00:55:35,643 INFO  com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement -  -------------------------- PASSED -------------------------- 
 ]]>
             </line>
           </reporter-output>
         </test-method> <!-- TC_02_LoginToSystem -->
-        <test-method status="PASS" signature="TC_03_Dymamic_Header_Menu_More()[pri:0, instance:com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement@71bbf57e]" name="TC_03_Dymamic_Header_Menu_More" duration-ms="18868" started-at="2020-07-05T15:11:09Z" description="only use in case more pages" finished-at="2020-07-05T15:11:28Z">
+        <test-method signature="TC_03_Dymamic_Header_Menu_More()[pri:0, instance:com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement@2034b64c]" started-at="2021-03-07T00:55:35Z" name="TC_03_Dymamic_Header_Menu_More" description="only use in case more pages" finished-at="2021-03-07T00:55:58Z" duration-ms="23334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_03_Dymamic_Header_Menu_More -->
-        <test-method status="PASS" signature="TC_04_Dymamic_Header_Sub_Menu_More()[pri:0, instance:com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement@71bbf57e]" name="TC_04_Dymamic_Header_Sub_Menu_More" duration-ms="7246" started-at="2020-07-05T15:11:28Z" description="only use in case more pages" finished-at="2020-07-05T15:11:35Z">
+        <test-method signature="TC_04_Dymamic_Header_Sub_Menu_More()[pri:0, instance:com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement@2034b64c]" started-at="2021-03-07T00:55:58Z" name="TC_04_Dymamic_Header_Sub_Menu_More" description="only use in case more pages" finished-at="2021-03-07T00:56:08Z" duration-ms="9598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_04_Dymamic_Header_Sub_Menu_More -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement@71bbf57e]" name="afterTest" is-config="true" duration-ms="983" started-at="2020-07-05T15:11:35Z" finished-at="2020-07-05T15:11:36Z">
+        <test-method signature="TC_05_Dymamic_Header_Menu_More()[pri:0, instance:com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement@2034b64c]" started-at="2021-03-07T00:56:08Z" name="TC_05_Dymamic_Header_Menu_More" description="only use in case more pages" finished-at="2021-03-07T00:56:08Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_Dymamic_Header_Menu_More -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement@2034b64c]" started-at="2021-03-07T00:56:08Z" name="afterTest" finished-at="2021-03-07T00:56:10Z" duration-ms="1988" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[2020-07-05 15:11:35,716 INFO  com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement - OS name = windows 10
+              <![CDATA[2021-03-07 00:56:08,589 INFO  com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement - OS name = windows 10
 ]]>
             </line>
             <line>
-              <![CDATA[2020-07-05 15:11:36,697 INFO  com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement - ---------- QUIT BROWSER SUCCESS ----------
+              <![CDATA[2021-03-07 00:56:10,574 INFO  com.nopcommerce.login.Login_13_RegisterAndLogin_DynamicElement - ---------- QUIT BROWSER SUCCESS ----------
 ]]>
             </line>
           </reporter-output>

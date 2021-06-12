@@ -921,6 +921,7 @@ public class AbstractPages {
 		for (Float price : arrayList) {
 			System.out.println(price);
 		}
+		
 		Collections.reverse(arrayList);
 
 		System.out.println("--------------------------------------PRICE sort trong CODE DESC-----------------------------");
