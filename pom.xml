@@ -22,7 +22,7 @@
 		<webdriver.version>3.141.59</webdriver.version>
 		<testng.version>6.9.10</testng.version>
 		<webdrivermanager.version>4.0.0</webdrivermanager.version>
-		<jackson.version>2.9.4</jackson.version>
+		<jackson.version>2.12.1</jackson.version>
 	</properties>
 
 	<!-- Quản lí thư viện -->
